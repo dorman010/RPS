@@ -1,7 +1,6 @@
-function computerPlay(Rock, Paper, Scissors) {
-    console.log('Rock')
-    console.log('Paper')
-    console.log('Scissors')
-}
+function computerPlay(compChoice) {
 
-computerPlay();
+    return compChoice[Math.floor(Math.random()*compChoice.length)]
+}
+var compChoice = ['Rock','Paper','Scissors']
+console.log(computerPlay(compChoice))
