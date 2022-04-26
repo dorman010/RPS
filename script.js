@@ -1,3 +1,7 @@
+let payerScore = 0
+let compputerScore = 0
+const buttons = document.querySelector('input')
+
 let rpsComp = ['Rock', 'Paper', 'Scissors'];
 
 function computerPlay(arr){
@@ -8,5 +12,5 @@ function computerPlay(arr){
 
 computerPlay(rpsComp)
 
-let playerChoice = prompt('Rock, paper or scissors?')
+//* let playerChoice = prompt('Rock, paper or scissors?')
 console.log(playerChoice);
