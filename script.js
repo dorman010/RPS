@@ -12,5 +12,7 @@ function computerPlay(arr){
 
 computerPlay(rpsComp)
 
-//* let playerChoice = prompt('Rock, paper or scissors?')
-console.log(playerChoice);
+function invalidChoice() {
+    // return 'Please select from the player choice';
+    console.log('Please select from the player choice section to the left');
+}
