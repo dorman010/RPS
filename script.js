@@ -1,6 +1,12 @@
-function computerPlay(compChoice) {
+let rpsComp = ['Rock', 'Paper', 'Scissors'];
 
-    return compChoice[Math.floor(Math.random()*compChoice.length)]
+function computerPlay(arr){
+    const random = arr[Math.floor(Math.random() * arr.length)];
+    console.log(random)
+    return random;
 }
-var compChoice = ['Rock','Paper','Scissors']
-console.log(computerPlay(compChoice))
+
+computerPlay(rpsComp)
+
+let playerChoice = prompt('Rock, paper or scissors?')
+console.log(playerChoice);
